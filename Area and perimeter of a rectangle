@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int lenght, width, a, c ;
+    
+    printf("inter the length of rectangle:\n");;
+    scanf("%d",&lenght);
+    
+     printf("inter the whidth of rectangle:\n");;
+    scanf("%d",&width);
+    
+    printf("the area of rectangle is :%d\n ", a = lenght * width);
+    printf("the circumference of rectangle is :%d ", c = ((lenght + width)* 2));
+    
+    return 0;
+}
