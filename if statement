@@ -1,0 +1,19 @@
+/* write the c code to calculate eployee aslary in a week based on working hours , hour rate is 50.
+if the working hour less than 40 hours , a 10% will deduction will applide. */
+
+#include <stdio.h>
+
+int main() {
+    float x, z;
+    
+    printf("inter the total hours work");
+    scanf("%f",&x);
+    z = x * 50;
+    if (x < 40)
+    {
+        printf("the salary is %.2f",z - (z/10));
+    }else
+    {
+         printf("the salary is %.2f",z);
+    }
+}
