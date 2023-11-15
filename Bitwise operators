@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int x = 7, y = 4, z;
+    
+    printf("x & y = %d\n", z = x & y);
+    printf("x | y = %d\n", z = x | y);
+    printf("x ^ y = %d\n", z = x ^ y);
+    printf("x >> 1 = %d\n", z = x >> 1);
+    printf("y << 2 = %d\n", z = y << 2);
+    return 0;
+}
