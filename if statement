@@ -9,7 +9,7 @@ int main() {
     printf("inter the total hours work");
     scanf("%f",&x);
     z = x * 50;
-    if (x < 40)
+    if (x <= 40)
     {
         printf("the salary is %.2f",z - (z/10));
     }else
