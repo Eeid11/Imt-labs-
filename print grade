@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+  
+   int x;
+    
+    printf("inter your grade\n");
+    scanf("%d",&x);
+    
+    if (x >=0 && x<50)
+    {
+        printf("failed\n");
+    }else if (x >=50 && x<65)
+    {
+         printf("normal\n");
+    }else if (x >=65 && x<75)
+    {
+         printf("good\n");
+    }else if (x >=75 && x<85)
+    {
+         printf("very good\n");
+    }else if (x >=85)
+    {
+         printf("excellent\n");
+    }
+  
+}
