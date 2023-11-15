@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+ int x;
+ 
+  printf("inter your ID\n");
+  scanf("%d",&x);
+  
+  switch(x)
+  {
+      case 1234:
+                printf("ahmed\n");
+                break;
+      case 5678:
+                printf("youssef\n");
+                break;
+      case 1145:
+                printf("mina\n");
+                break;
+    default:
+            printf("wrong ID\n");
+  }
+ }
