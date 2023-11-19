@@ -1,0 +1,13 @@
+/* write a programe in c to display the multiplication table of the givine integer*/
+#include <stdio.h>
+
+int main() {
+    int x , r;
+    printf("inter the number to display its multiplication table : ");
+    scanf("%d",&x);
+    for (int i =1; i <= x;i++)
+    {
+        printf("%d x %d = %d\n", x, i, r=x*i);
+    }
+    return 0;
+}
