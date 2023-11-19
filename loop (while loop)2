@@ -1,0 +1,18 @@
+/*wright the c code that aske the user to enter the result of  3 x 4 
+   in case the user inter correct answer the program will print thank you 
+otherwise the program will print tray again until the user inter the correct answer
+*
+#include <stdio.h>
+
+int main() {
+    int x;
+    printf("inter the anser of 3 x 4 = ");
+    scanf("%d",&x);
+    while(x != 12)
+    {
+        printf("not correct, please tray again:");
+        scanf("%d",&x);
+    }
+    printf("thank you");
+    return 0;
+}
