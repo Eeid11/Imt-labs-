@@ -1,0 +1,14 @@
+
+#include <stdio.h>
+
+int main() {
+    int x, y = 1, f = 1;
+    
+    printf("inter an integer:");
+    scanf("%d",&x);
+    do{
+        f = f * y;
+        y++;
+    }while(y <= x);
+    printf("%d",f);
+}
